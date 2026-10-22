@@ -1,0 +1,23 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 环境与本地配置
+.venv/
+venv/
+.vscode/
+.env
+.env.*
+
+# 训练数据、权重和日志
+/data/
+/models/
+/outputs/
+/wandb/
+*.pt
+*.pth
+*.bin
+
+# 备份
+*.bak
+*.bak.*
